@@ -24,8 +24,8 @@ module.exports = {
       ssh_options: [
         'ForwardAgent=yes',
       ],
-      ref: 'origin/master',
-      repo: 'git@github.com:HoangPhanDev98/nodejs-aws.git',
+      ref: 'origin/main',
+      repo: 'git@github.com:HoangPhanDev98/aws-nodejs.git',
       path: '/var/www/html/nodejs-aws',
       'post-deploy': 'yarn install && pm2 startOrRestart ecosystem.config.js --env development',
       env: {
