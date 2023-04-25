@@ -1,0 +1,12 @@
+{
+  "arrowParens": "always",
+  "trailingComma": "all",
+  "tabWidth": 2,
+  "singleQuote": true,
+  "overrides": [{
+    "files": "*.ts",
+    "options": {
+      "parser": "typescript"
+    }
+  }]
+}
